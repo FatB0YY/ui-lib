@@ -28,5 +28,6 @@ module.exports = {
         'prefer-const': 'off',
         'space-before-function-paren': 'off',
         'object-curly-spacing': 'off',
+        'new-cap': 'off',
     },
 }
