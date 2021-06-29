@@ -8,3 +8,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+section {
+    padding: 30px;
+    .blocks {
+        height: 80px;
+    }
+    .btn-primary.active {
+        color: red;
+    }
+}
