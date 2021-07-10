@@ -29,5 +29,6 @@ module.exports = {
         'space-before-function-paren': 'off',
         'object-curly-spacing': 'off',
         'new-cap': 'off',
+        'max-len': '150',
     },
 }

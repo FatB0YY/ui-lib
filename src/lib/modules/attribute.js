@@ -1,4 +1,4 @@
-import $ from './lib/lib'
+import $ from '../core'
 
 $.prototype.getAttr = function(name) {
     for (let i = 0; i < this.length; i++) {

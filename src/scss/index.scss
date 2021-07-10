@@ -1,20 +1,26 @@
 @import '~normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*,
-*::before,
-*::after {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import './general/base.scss';
+@import './general/variables.scss';
+@import './general/typography.scss';
+@import './components/ui.scss';
+@import './helpers/classes.scss';
+hr {
+    margin: 35px 0px;
 }
 
-section {
-    padding: 30px;
-    .blocks {
-        height: 80px;
-    }
-    .btn-primary.active {
-        color: red;
-    }
+body {
+    padding-bottom: 500px;
+}
+
+.wrap1 {
+    border: 1px solid $danger;
+    padding: 5px;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+.wrap2 {
+    border: 1px solid $primary;
+    padding: 5px;
+    border-radius: 4px;
 }
